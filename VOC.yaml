@@ -1,0 +1,18 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# PASCAL VOC dataset http://host.robots.ox.ac.uk/pascal/VOC by University of Oxford
+# Documentation: https://docs.ultralytics.com/datasets/detect/voc/
+
+
+path: VOC  # dataset root dir (already created at C:\Users\Atharv\datasets\VOC)
+
+train: 
+  - images/train2012
+  - images/train2007
+  - images/val2012
+  - images/val2007
+
+val: images/test2007
+
+# Classes (20 total)
+nc: 20
+names: ['aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus', 'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike', 'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tvmonitor']
